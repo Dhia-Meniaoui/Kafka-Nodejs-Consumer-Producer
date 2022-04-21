@@ -1,0 +1,24 @@
+{
+  "name": "kafka-nodejs-consumer-producer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:producer": "node ./producer/index.js",
+    "start:consumer": "node ./consumer/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhia-Meniaoui/Kafka-Nodejs-Consumer-Producer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dhia-Meniaoui/Kafka-Nodejs-Consumer-Producer/issues"
+  },
+  "homepage": "https://github.com/Dhia-Meniaoui/Kafka-Nodejs-Consumer-Producer#readme",
+  "dependencies": {
+    "kafka": "^0.2.3",
+    "kafkajs": "^1.16.0"
+  }
+}
